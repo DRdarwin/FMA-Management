@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "667351858880",
+    "firebase_url": "https://a-i-gen-project-zdn0qt-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "a-i-gen-project-zdn0qt",
+    "storage_bucket": "a-i-gen-project-zdn0qt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:667351858880:android:fe7b1013e0e74e6de03725",
+        "android_client_info": {
+          "package_name": "company.privateaero.fma"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "667351858880-d39s1tnkarps0ngtflbre9cphctrc916.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "company.privateaero.fma",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "667351858880-74b4fbmd7ufrm0vmlpv9ub69qi9cql9g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnODfDOlvr6DMrmmch8jGQmty_UGaGmb4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "667351858880-74b4fbmd7ufrm0vmlpv9ub69qi9cql9g.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "667351858880-i0jfsbap2dg5onq60pv8ooj6bs77dmho.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "company.privateaero.fma"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
