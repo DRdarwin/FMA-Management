@@ -64,7 +64,7 @@ class _AirportsScreenWidgetState extends State<AirportsScreenWidget> {
             centerTitle: true,
             elevation: 0.0,
           )
-        : SizedBox.shrink();
+        : const SizedBox.shrink();
 
     return Title(
       title: 'AirportsScreen',
@@ -111,7 +111,7 @@ class _AirportsScreenWidgetState extends State<AirportsScreenWidget> {
                           centerTitle: true,
                           elevation: 0.0,
                         )
-                      : SizedBox.shrink(),
+                      : const SizedBox.shrink(),
                   Padding(
                     padding: const EdgeInsetsDirectional.fromSTEB(
                         16.0, 0.0, 16.0, 0.0),

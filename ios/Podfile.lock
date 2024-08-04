@@ -9,6 +9,9 @@ PODS:
     - GoogleUtilities/Environment (~> 7.13)
     - GoogleUtilities/UserDefaults (~> 7.13)
     - PromisesObjC (~> 2.3)
+  - blinkid_flutter (6.9.0):
+    - Flutter
+    - PPBlinkID (~> 6.9.0)
   - cloud_firestore (5.2.0):
     - Firebase/Firestore (= 10.25.0)
     - firebase_core
@@ -39,6 +42,12 @@ PODS:
   - Firebase/Functions (10.25.0):
     - Firebase/CoreOnly
     - FirebaseFunctions (~> 10.25.0)
+  - Firebase/InAppMessaging (10.25.0):
+    - Firebase/CoreOnly
+    - FirebaseInAppMessaging (~> 10.25.0-beta)
+  - Firebase/Installations (10.25.0):
+    - Firebase/CoreOnly
+    - FirebaseInstallations (~> 10.25.0)
   - Firebase/Messaging (10.25.0):
     - Firebase/CoreOnly
     - FirebaseMessaging (~> 10.25.0)
@@ -54,6 +63,10 @@ PODS:
     - firebase_core
     - FirebaseAppCheck (~> 10.25.0)
     - Flutter
+  - firebase_app_installations (0.3.0-4):
+    - Firebase/Installations (= 10.25.0)
+    - firebase_core
+    - Flutter
   - firebase_auth (5.1.3):
     - Firebase/Auth (= 10.25.0)
     - firebase_core
@@ -63,6 +76,10 @@ PODS:
     - Flutter
   - firebase_crashlytics (4.0.4):
     - Firebase/Crashlytics (= 10.25.0)
+    - firebase_core
+    - Flutter
+  - firebase_in_app_messaging (0.8.0-4):
+    - Firebase/InAppMessaging (= 10.25.0)
     - firebase_core
     - Flutter
   - firebase_messaging (15.0.4):
@@ -164,7 +181,14 @@ PODS:
     - FirebaseMessagingInterop (~> 10.0)
     - FirebaseSharedSwift (~> 10.0)
     - GTMSessionFetcher/Core (< 4.0, >= 2.1)
-  - FirebaseInstallations (10.29.0):
+  - FirebaseInAppMessaging (10.25.0-beta):
+    - FirebaseABTesting (~> 10.0)
+    - FirebaseCore (~> 10.0)
+    - FirebaseInstallations (~> 10.0)
+    - GoogleUtilities/Environment (~> 7.13)
+    - GoogleUtilities/UserDefaults (~> 7.13)
+    - nanopb (< 2.30911.0, >= 2.30908.0)
+  - FirebaseInstallations (10.25.0):
     - FirebaseCore (~> 10.0)
     - GoogleUtilities/Environment (~> 7.8)
     - GoogleUtilities/UserDefaults (~> 7.8)
@@ -307,6 +331,7 @@ PODS:
   - path_provider_foundation (0.0.1):
     - Flutter
     - FlutterMacOS
+  - PPBlinkID (6.9.2)
   - PromisesObjC (2.4.0)
   - PromisesSwift (2.4.0):
     - PromisesObjC (= 2.4.0)
@@ -323,6 +348,7 @@ PODS:
     - Flutter
 
 DEPENDENCIES:
+  - blinkid_flutter (from `.symlinks/plugins/blinkid_flutter/ios`)
   - cloud_firestore (from `.symlinks/plugins/cloud_firestore/ios`)
   - cloud_functions (from `.symlinks/plugins/cloud_functions/ios`)
   - Firebase/Analytics (= 10.25.0)
@@ -331,12 +357,13 @@ DEPENDENCIES:
   - Firebase/Crashlytics (= 10.25.0)
   - Firebase/Firestore (= 10.25.0)
   - Firebase/Messaging
-  - Firebase/Messaging (= 10.25.0)
   - firebase_analytics (from `.symlinks/plugins/firebase_analytics/ios`)
   - firebase_app_check (from `.symlinks/plugins/firebase_app_check/ios`)
+  - firebase_app_installations (from `.symlinks/plugins/firebase_app_installations/ios`)
   - firebase_auth (from `.symlinks/plugins/firebase_auth/ios`)
   - firebase_core (from `.symlinks/plugins/firebase_core/ios`)
   - firebase_crashlytics (from `.symlinks/plugins/firebase_crashlytics/ios`)
+  - firebase_in_app_messaging (from `.symlinks/plugins/firebase_in_app_messaging/ios`)
   - firebase_messaging (from `.symlinks/plugins/firebase_messaging/ios`)
   - firebase_performance (from `.symlinks/plugins/firebase_performance/ios`)
   - FirebaseFirestore (from `https://github.com/invertase/firestore-ios-sdk-frameworks.git`, tag `10.25.0`)
@@ -372,6 +399,7 @@ SPEC REPOS:
     - FirebaseFirestoreGRPCCPPBinary
     - FirebaseFirestoreInternalBinary
     - FirebaseFunctions
+    - FirebaseInAppMessaging
     - FirebaseInstallations
     - FirebaseMessaging
     - FirebaseMessagingInterop
@@ -388,11 +416,14 @@ SPEC REPOS:
     - GTMSessionFetcher
     - leveldb-library
     - nanopb
+    - PPBlinkID
     - PromisesObjC
     - PromisesSwift
     - RecaptchaInterop
 
 EXTERNAL SOURCES:
+  blinkid_flutter:
+    :path: ".symlinks/plugins/blinkid_flutter/ios"
   cloud_firestore:
     :path: ".symlinks/plugins/cloud_firestore/ios"
   cloud_functions:
@@ -401,12 +432,16 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/firebase_analytics/ios"
   firebase_app_check:
     :path: ".symlinks/plugins/firebase_app_check/ios"
+  firebase_app_installations:
+    :path: ".symlinks/plugins/firebase_app_installations/ios"
   firebase_auth:
     :path: ".symlinks/plugins/firebase_auth/ios"
   firebase_core:
     :path: ".symlinks/plugins/firebase_core/ios"
   firebase_crashlytics:
     :path: ".symlinks/plugins/firebase_crashlytics/ios"
+  firebase_in_app_messaging:
+    :path: ".symlinks/plugins/firebase_in_app_messaging/ios"
   firebase_messaging:
     :path: ".symlinks/plugins/firebase_messaging/ios"
   firebase_performance:
@@ -439,14 +474,17 @@ CHECKOUT OPTIONS:
 SPEC CHECKSUMS:
   AppAuth: 501c04eda8a8d11f179dbe8637b7a91bb7e5d2fa
   AppCheckCore: 9feb4300caa596a36416cde10674dc5bec1e022e
+  blinkid_flutter: 5d6d2c28c33a77f52ea1b167d7f287ba92db1c59
   cloud_firestore: 803f636256da3aa48c60e28d51b2e31d4151aaa4
   cloud_functions: 821fdf27ef274e62301fc10cdb6648271bdc3d2d
   Firebase: 0312a2352584f782ea56f66d91606891d4607f06
   firebase_analytics: fb372a8e2c1dbc1feaae4ae77529702f7f024134
   firebase_app_check: 488f96084c12e9666dbfab8defaa43b21d42eefa
+  firebase_app_installations: 7dcbba924f7065602ad1b96f16e58607b78cbbf5
   firebase_auth: 8748de77680c506de7e2029aedf30e735d7a7879
   firebase_core: 2a248a13cb47361e4746d4e5e6dbe64cf27a626f
   firebase_crashlytics: afb6fd8a49780e1cf2ecc43c176c4e7e0fa7db9c
+  firebase_in_app_messaging: 13944ea119a3e39c1bcf6d35d73cf45932616633
   firebase_messaging: 6156705666c2e57e5c57917d28a0192509e5adaa
   firebase_performance: 228fdc58a1283412431973454f77a2879f70867f
   FirebaseABTesting: d87f56707159bae64e269757a6e963d490f2eebe
@@ -467,7 +505,8 @@ SPEC CHECKSUMS:
   FirebaseFirestoreGRPCCPPBinary: e447b3a7c060c0abfc4e2c9f6fb53bf7635ded66
   FirebaseFirestoreInternalBinary: 64bdfce9f9f44f131e47694b6287fce0f6f26019
   FirebaseFunctions: 93b1c7f352aec3922925a0e856cb1d6a09197083
-  FirebaseInstallations: 913cf60d0400ebd5d6b63a28b290372ab44590dd
+  FirebaseInAppMessaging: 7baba5c4610a12f0cadd6da00e1b3c90495f105b
+  FirebaseInstallations: 91950fe859846fff0fbd296180909dd273103b09
   FirebaseMessaging: 88950ba9485052891ebe26f6c43a52bb62248952
   FirebaseMessagingInterop: afa5a4da1d615d109cf9fcf37479af96f6c3623a
   FirebasePerformance: bae7778c4448b37f2a75cb72d30c2df7d10ff227
@@ -487,6 +526,7 @@ SPEC CHECKSUMS:
   leveldb-library: e8eadf9008a61f9e1dde3978c086d2b6d9b9dc28
   nanopb: 438bc412db1928dac798aa6fd75726007be04262
   path_provider_foundation: 2b6b4c569c0fb62ec74538f866245ac84301af46
+  PPBlinkID: 5be761e503765cbde6a9ecd98a43404724d0f325
   PromisesObjC: f5707f49cb48b9636751c5b2e7d227e43fba9f47
   PromisesSwift: 9d77319bbe72ebf6d872900551f7eeba9bce2851
   RecaptchaInterop: 7d1a4a01a6b2cb1610a47ef3f85f0c411434cb21

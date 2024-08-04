@@ -38,6 +38,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "blinkid_flutter",
+      "rootUri": "file:///Users/ian/.pub-cache/hosted/pub.dev/blinkid_flutter-6.9.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "boolean_selector",
       "rootUri": "file:///Users/ian/.pub-cache/hosted/pub.dev/boolean_selector-2.1.1",
       "packageUri": "lib/",
@@ -896,7 +902,7 @@
       "languageVersion": "3.0"
     }
   ],
-  "generated": "2024-08-04T01:18:37.580992Z",
+  "generated": "2024-08-04T03:20:38.474780Z",
   "generator": "pub",
   "generatorVersion": "3.4.4",
   "flutterRoot": "file:///Users/ian/development/flutter",

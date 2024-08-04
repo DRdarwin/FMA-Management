@@ -82,7 +82,7 @@ class _FlightsScreenWidgetState extends State<FlightsScreenWidget> {
             centerTitle: true,
             elevation: 0.0,
           )
-        : SizedBox.shrink();
+        : const SizedBox.shrink();
 
     return Title(
       title: 'FlightsScreen',
@@ -130,7 +130,7 @@ class _FlightsScreenWidgetState extends State<FlightsScreenWidget> {
                           centerTitle: false,
                           elevation: 0.0,
                         )
-                      : SizedBox.shrink(),
+                      : const SizedBox.shrink(),
                   Padding(
                     padding: const EdgeInsetsDirectional.fromSTEB(
                         16.0, 0.0, 16.0, 90.0),

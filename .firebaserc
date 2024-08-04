@@ -2,6 +2,15 @@
   "projects": {
     "default": "a-i-gen-project-zdn0qt"
   },
+  "targets": {},
+  "etags": {
+    "a-i-gen-project-zdn0qt": {
+      "extensionInstances": {
+        "delete-user-data": "e536687625f83e12c25091d7708954522f7bfaa3acaadac402b3ad7d7a740bc6",
+        "export-user-data": "d7e68c52e93b2aaede5e73a25fff4da2279b0bbbf19897253eb437ba499cd617"
+      }
+    }
+  },
   "dataconnectEmulatorConfig": {
     "postgres": {
       "localConnectionString": "postgresql://localhost:5432?sslmode=disable"

@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
@@ -12,79 +14,81 @@
 	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
-	<key>CFBundleName</key>
-	<string>FMA Management</string>
-	<key>CFBundlePackageType</key>
-	<string>APPL</string>
 	<key>CFBundleLocalizations</key>
 	<array>
 		<string>en</string>
 		<string>uk</string>
 		<string>ru</string>
 	</array>
-
+	<key>CFBundleName</key>
+	<string>FMA Management</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
 	<string>$(FLUTTER_BUILD_NAME)</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleURLTypes</key>
 	<array>
-        <dict>
-            <key>CFBundleTypeRole</key>
-            <string>Editor</string>
-            <key>CFBundleURLSchemes</key>
-            <array>
-                <string>com.googleusercontent.apps.667351858880-i0jfsbap2dg5onq60pv8ooj6bs77dmho</string>
-                
-            </array>
-        </dict>
-
-        <dict>
-        <key>CFBundleTypeRole</key>
-        <string>Editor</string>
-        <key>CFBundleURLName</key>
-        <string>fmamanagement.com</string>
-        <key>CFBundleURLSchemes</key>
-        <array>
-        <string>fmamanagement</string>
-        </array>
-        </dict>
-    </array>
-    <key>FlutterDeepLinkingEnabled</key>
-    <true/>
-
-
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.667351858880-i0jfsbap2dg5onq60pv8ooj6bs77dmho</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>fmamanagement.com</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fmamanagement</string>
+			</array>
+		</dict>
+	</array>
 	<key>CFBundleVersion</key>
 	<string>$(FLUTTER_BUILD_NUMBER)</string>
+	<key>FlutterDeepLinkingEnabled</key>
+	<true/>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
-
-
-	<key>PermissionGroupNotification</key>
-    <string>Stay updated with the latest from FMA Management by allowing notifications.</string>
-	<key>NSPhotoLibraryUsageDescription</key>
-    <string>FMA Management needs access to your photos/media library to let you upload images, videos, or other files.</string>
-	<key>NSLocationWhenInUseUsageDescription</key>
-    <string>Allow FMA Management to access your location to provide personalized features and recommendations.</string>
-	<key>NSCameraUsageDescription</key>
-    <string>Enable camera access to share moments, create content, or participate in calls within FMA Management.</string>
-	<key>NSCalendarsUsageDescription</key>
-    <string>o create events, reminders, or integrate with your schedule, FMA Management needs access to your calendar.</string>
-	<key>NSFaceIDUsageDescription</key>
-    <string>For enhanced security and convenience, FMA Management would like to use your biometrics (fingerprint/face ID) to verify your identity.</string>
-	<key>NSMicrophoneUsageDescription</key>
-    <string>Enable microphone access to share moments, create content, or participate in calls within FMA Management.</string>
-	<key>NSContactsUsageDescription</key>
-    <string>Grant FMA Management access to your contacts to easily connect with colleagues who are also using the app.</string>
 	<key>NSBluetoothAlwaysUsageDescription</key>
-    <string>"FMA Management would like to access Bluetooth to connect with devices, share files, or enable wireless features.</string>
-    <key>UIBackgroundModes</key>
-    <array>
-        <string>fetch</string>
-        <string>remote-notification</string>
-    </array>
-
-
+	<string>"FMA Management would like to access Bluetooth to connect with devices, share files, or enable wireless features.</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>o create events, reminders, or integrate with your schedule, FMA Management needs access to your calendar.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Enable camera access to share moments, create content, or participate in calls within FMA Management.</string>
+	<key>NSContactsUsageDescription</key>
+	<string>Grant FMA Management access to your contacts to easily connect with colleagues who are also using the app.</string>
+	<key>NSFaceIDUsageDescription</key>
+	<string>For enhanced security and convenience, FMA Management would like to use your biometrics (fingerprint/face ID) to verify your identity.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Allow FMA Management to access your location to provide personalized features and recommendations.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Enable microphone access to share moments, create content, or participate in calls within FMA Management.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>FMA Management needs access to your photos/media library to let you upload images, videos, or other files.</string>
+	<key>PermissionGroupNotification</key>
+	<string>Stay updated with the latest from FMA Management by allowing notifications.</string>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>audio</string>
+		<string>bluetooth-central</string>
+		<string>bluetooth-peripheral</string>
+		<string>external-accessory</string>
+		<string>fetch</string>
+		<string>location</string>
+		<string>nearby-interaction</string>
+		<string>processing</string>
+		<string>push-to-talk</string>
+		<string>remote-notification</string>
+		<string>voip</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
@@ -104,10 +108,5 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
-
-	<key>CADisableMinimumFrameDurationOnPhone</key>
-	<true/>
-	<key>UIApplicationSupportsIndirectInputEvents</key>
-	<true/>
 </dict>
 </plist>
