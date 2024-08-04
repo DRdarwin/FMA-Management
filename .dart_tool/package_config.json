@@ -495,7 +495,7 @@
     },
     {
       "name": "json_path",
-      "rootUri": "file:///Users/ian/.pub-cache/hosted/pub.dev/json_path-0.7.3",
+      "rootUri": "file:///Users/ian/.pub-cache/hosted/pub.dev/json_path-0.7.4",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
@@ -902,7 +902,7 @@
       "languageVersion": "3.0"
     }
   ],
-  "generated": "2024-08-04T03:20:38.474780Z",
+  "generated": "2024-08-04T07:01:06.023176Z",
   "generator": "pub",
   "generatorVersion": "3.4.4",
   "flutterRoot": "file:///Users/ian/development/flutter",
