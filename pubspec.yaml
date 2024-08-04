@@ -102,6 +102,7 @@ dependencies:
 
   crypto: any
   firebase_in_app_messaging: ^0.8.0+4
+  firebase_app_installations: ^0.3.0+4
 flutter_web_plugins:
   sdk: flutter
 dependency_overrides:
