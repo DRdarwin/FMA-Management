@@ -1,24 +1,15 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:go_router/go_router.dart';
-import 'package:page_transition/page_transition.dart';
 import 'package:provider/provider.dart';
-import '/backend/backend.dart';
 
-import '/backend/schema/enums/enums.dart';
 
 import '/auth/base_auth_user_provider.dart';
 
 import '/backend/push_notifications/push_notifications_handler.dart'
     show PushNotificationsHandler;
 import '/index.dart';
-import '/main.dart';
-import '/flutter_flow/flutter_flow_theme.dart';
-import '/flutter_flow/lat_lng.dart';
-import '/flutter_flow/place.dart';
 import '/flutter_flow/flutter_flow_util.dart';
-import 'serialization_util.dart';
 
 export 'package:go_router/go_router.dart';
 export 'serialization_util.dart';
@@ -83,88 +74,88 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
       debugLogDiagnostics: true,
       refreshListenable: appStateNotifier,
       errorBuilder: (context, state) =>
-          appStateNotifier.loggedIn ? HomeWidget() : Auth1Widget(),
+          appStateNotifier.loggedIn ? const HomeWidget() : const Auth1Widget(),
       routes: [
         FFRoute(
           name: '_initialize',
           path: '/',
           builder: (context, _) =>
-              appStateNotifier.loggedIn ? HomeWidget() : Auth1Widget(),
+              appStateNotifier.loggedIn ? const HomeWidget() : const Auth1Widget(),
         ),
         FFRoute(
           name: 'Home',
           path: '/home',
-          builder: (context, params) => HomeWidget(),
+          builder: (context, params) => const HomeWidget(),
         ),
         FFRoute(
           name: 'Auth1',
           path: '/auth1',
-          builder: (context, params) => Auth1Widget(),
+          builder: (context, params) => const Auth1Widget(),
         ),
         FFRoute(
           name: 'FlightsScreen',
           path: '/flightsScreen',
-          builder: (context, params) => FlightsScreenWidget(),
+          builder: (context, params) => const FlightsScreenWidget(),
         ),
         FFRoute(
           name: 'AirportsScreen',
           path: '/airportsScreen',
-          builder: (context, params) => AirportsScreenWidget(),
+          builder: (context, params) => const AirportsScreenWidget(),
         ),
         FFRoute(
           name: 'UsersScreen',
           path: '/usersScreen',
-          builder: (context, params) => UsersScreenWidget(),
+          builder: (context, params) => const UsersScreenWidget(),
         ),
         FFRoute(
           name: 'AircraftScreen',
           path: '/aircraftScreen',
-          builder: (context, params) => AircraftScreenWidget(),
+          builder: (context, params) => const AircraftScreenWidget(),
         ),
         FFRoute(
           name: 'FinancesScreen',
           path: '/financesScreen',
-          builder: (context, params) => FinancesScreenWidget(),
+          builder: (context, params) => const FinancesScreenWidget(),
         ),
         FFRoute(
           name: 'FlightDetailsScreen',
           path: '/flightDetailsScreen',
-          builder: (context, params) => FlightDetailsScreenWidget(),
+          builder: (context, params) => const FlightDetailsScreenWidget(),
         ),
         FFRoute(
           name: 'AircraftDetailsScreen',
           path: '/aircraftDetailsScreen',
-          builder: (context, params) => AircraftDetailsScreenWidget(),
+          builder: (context, params) => const AircraftDetailsScreenWidget(),
         ),
         FFRoute(
           name: 'AirportDetailsScreen',
           path: '/airportDetailsScreen',
-          builder: (context, params) => AirportDetailsScreenWidget(),
+          builder: (context, params) => const AirportDetailsScreenWidget(),
         ),
         FFRoute(
           name: 'UserDetailsScreen',
           path: '/userDetailsScreen',
-          builder: (context, params) => UserDetailsScreenWidget(),
+          builder: (context, params) => const UserDetailsScreenWidget(),
         ),
         FFRoute(
           name: 'CreateEditFlightScreen',
           path: '/createEditFlightScreen',
-          builder: (context, params) => CreateEditFlightScreenWidget(),
+          builder: (context, params) => const CreateEditFlightScreenWidget(),
         ),
         FFRoute(
           name: 'GenerateReportsScreen',
           path: '/generateReportsScreen',
-          builder: (context, params) => GenerateReportsScreenWidget(),
+          builder: (context, params) => const GenerateReportsScreenWidget(),
         ),
         FFRoute(
           name: 'ForgotPassword02',
           path: '/forgotPassword02',
-          builder: (context, params) => ForgotPassword02Widget(),
+          builder: (context, params) => const ForgotPassword02Widget(),
         ),
         FFRoute(
           name: 'maptracking',
           path: '/maptracking',
-          builder: (context, params) => MaptrackingWidget(),
+          builder: (context, params) => const MaptrackingWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );
@@ -400,7 +391,7 @@ class TransitionInfo {
   final Duration duration;
   final Alignment? alignment;
 
-  static TransitionInfo appDefault() => TransitionInfo(hasTransition: false);
+  static TransitionInfo appDefault() => const TransitionInfo(hasTransition: false);
 }
 
 class RootPageContext {

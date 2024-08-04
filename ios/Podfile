@@ -33,6 +33,15 @@ target 'Runner' do
   use_frameworks! :linkage => :static
   use_modular_headers!
 
+  # Override Firebase SDK Version
+  $FirebaseSDKVersion = '10.25.0'
+
+  pod 'Firebase/Core', $FirebaseSDKVersion
+  pod 'Firebase/Auth', $FirebaseSDKVersion
+  pod 'Firebase/Firestore', $FirebaseSDKVersion
+  pod 'Firebase/Crashlytics', $FirebaseSDKVersion
+  pod 'Firebase/Analytics', $FirebaseSDKVersion
+
   flutter_install_all_ios_pods File.dirname(File.realpath(__FILE__))
   pod 'FirebaseFirestore', :git => 'https://github.com/invertase/firestore-ios-sdk-frameworks.git', :tag => '10.25.0'
 end

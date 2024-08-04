@@ -1,10 +1,8 @@
 import '/flutter_flow/flutter_flow_icon_button.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
-import '/flutter_flow/flutter_flow_widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:provider/provider.dart';
 import 'users_screen_model.dart';
 export 'users_screen_model.dart';
 
@@ -47,7 +45,7 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
               : FocusScope.of(context).unfocus(),
           child: Scaffold(
             key: scaffoldKey,
-            backgroundColor: Color(0xFFF1F4F8),
+            backgroundColor: const Color(0xFFF1F4F8),
             appBar: responsiveVisibility(
               context: context,
               tabletLandscape: false,
@@ -81,7 +79,7 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                       style:
                           FlutterFlowTheme.of(context).headlineLarge.override(
                                 fontFamily: 'Outfit',
-                                color: Color(0xFF15161E),
+                                color: const Color(0xFF15161E),
                                 fontSize: 32.0,
                                 letterSpacing: 0.0,
                                 fontWeight: FontWeight.normal,
@@ -89,7 +87,7 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                                     GoogleFonts.asMap().containsKey('Outfit'),
                               ),
                     ),
-                    actions: [],
+                    actions: const [],
                     centerTitle: true,
                     elevation: 0.0,
                   )
@@ -101,17 +99,17 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                 children: [
                   Flexible(
                     child: Align(
-                      alignment: AlignmentDirectional(0.0, 0.0),
+                      alignment: const AlignmentDirectional(0.0, 0.0),
                       child: Padding(
-                        padding: EdgeInsets.all(16.0),
+                        padding: const EdgeInsets.all(16.0),
                         child: Container(
                           width: double.infinity,
-                          constraints: BoxConstraints(
+                          constraints: const BoxConstraints(
                             maxWidth: 1170.0,
                           ),
                           decoration: BoxDecoration(
                             color: Colors.white,
-                            boxShadow: [
+                            boxShadow: const [
                               BoxShadow(
                                 blurRadius: 3.0,
                                 color: Color(0x33000000),
@@ -123,18 +121,18 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                             ],
                             borderRadius: BorderRadius.circular(8.0),
                             border: Border.all(
-                              color: Color(0xFFE0E3E7),
+                              color: const Color(0xFFE0E3E7),
                               width: 1.0,
                             ),
                           ),
                           child: Padding(
-                            padding: EdgeInsets.all(16.0),
+                            padding: const EdgeInsets.all(16.0),
                             child: Column(
                               mainAxisSize: MainAxisSize.max,
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Padding(
-                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                  padding: const EdgeInsetsDirectional.fromSTEB(
                                       0.0, 0.0, 12.0, 0.0),
                                   child: Text(
                                     FFLocalizations.of(context).getText(
@@ -144,7 +142,7 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                                         .headlineMedium
                                         .override(
                                           fontFamily: 'Outfit',
-                                          color: Color(0xFF14181B),
+                                          color: const Color(0xFF14181B),
                                           fontSize: 24.0,
                                           letterSpacing: 0.0,
                                           fontWeight: FontWeight.normal,
@@ -154,7 +152,7 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                                   ),
                                 ),
                                 Padding(
-                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                  padding: const EdgeInsetsDirectional.fromSTEB(
                                       0.0, 4.0, 12.0, 0.0),
                                   child: Text(
                                     FFLocalizations.of(context).getText(
@@ -164,7 +162,7 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                                         .labelMedium
                                         .override(
                                           fontFamily: 'Readex Pro',
-                                          color: Color(0xFF57636C),
+                                          color: const Color(0xFF57636C),
                                           fontSize: 14.0,
                                           letterSpacing: 0.0,
                                           fontWeight: FontWeight.normal,
@@ -174,12 +172,12 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                                   ),
                                 ),
                                 Padding(
-                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                  padding: const EdgeInsetsDirectional.fromSTEB(
                                       0.0, 16.0, 0.0, 0.0),
                                   child: Container(
                                     width: double.infinity,
                                     height: 40.0,
-                                    decoration: BoxDecoration(
+                                    decoration: const BoxDecoration(
                                       color: Color(0xFFF1F4F8),
                                       borderRadius: BorderRadius.only(
                                         bottomLeft: Radius.circular(0.0),
@@ -189,7 +187,7 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                                       ),
                                     ),
                                     child: Padding(
-                                      padding: EdgeInsetsDirectional.fromSTEB(
+                                      padding: const EdgeInsetsDirectional.fromSTEB(
                                           16.0, 0.0, 16.0, 0.0),
                                       child: Row(
                                         mainAxisSize: MainAxisSize.max,
@@ -211,7 +209,7 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                                                     .bodySmall
                                                     .override(
                                                       fontFamily: 'Readex Pro',
-                                                      color: Color(0xFF14181B),
+                                                      color: const Color(0xFF14181B),
                                                       fontSize: 12.0,
                                                       letterSpacing: 0.0,
                                                       fontWeight:
@@ -235,7 +233,7 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                                                   .bodySmall
                                                   .override(
                                                     fontFamily: 'Readex Pro',
-                                                    color: Color(0xFF14181B),
+                                                    color: const Color(0xFF14181B),
                                                     fontSize: 12.0,
                                                     letterSpacing: 0.0,
                                                     fontWeight:
@@ -264,7 +262,7 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                                                     .bodySmall
                                                     .override(
                                                       fontFamily: 'Readex Pro',
-                                                      color: Color(0xFF14181B),
+                                                      color: const Color(0xFF14181B),
                                                       fontSize: 12.0,
                                                       letterSpacing: 0.0,
                                                       fontWeight:
@@ -292,7 +290,7 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                                                     .bodySmall
                                                     .override(
                                                       fontFamily: 'Readex Pro',
-                                                      color: Color(0xFF14181B),
+                                                      color: const Color(0xFF14181B),
                                                       fontSize: 12.0,
                                                       letterSpacing: 0.0,
                                                       fontWeight:
@@ -315,7 +313,7 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                                                   .bodySmall
                                                   .override(
                                                     fontFamily: 'Readex Pro',
-                                                    color: Color(0xFF14181B),
+                                                    color: const Color(0xFF14181B),
                                                     fontSize: 12.0,
                                                     letterSpacing: 0.0,
                                                     fontWeight:
@@ -339,7 +337,7 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                                                   .bodySmall
                                                   .override(
                                                     fontFamily: 'Readex Pro',
-                                                    color: Color(0xFF14181B),
+                                                    color: const Color(0xFF14181B),
                                                     fontSize: 12.0,
                                                     letterSpacing: 0.0,
                                                     fontWeight:
@@ -362,11 +360,11 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                                   scrollDirection: Axis.vertical,
                                   children: [
                                     Padding(
-                                      padding: EdgeInsetsDirectional.fromSTEB(
+                                      padding: const EdgeInsetsDirectional.fromSTEB(
                                           0.0, 0.0, 0.0, 1.0),
                                       child: Container(
                                         width: 100.0,
-                                        decoration: BoxDecoration(
+                                        decoration: const BoxDecoration(
                                           color: Colors.white,
                                           boxShadow: [
                                             BoxShadow(
@@ -381,7 +379,7 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                                         ),
                                         child: Padding(
                                           padding:
-                                              EdgeInsetsDirectional.fromSTEB(
+                                              const EdgeInsetsDirectional.fromSTEB(
                                                   16.0, 0.0, 16.0, 0.0),
                                           child: InkWell(
                                             splashColor: Colors.transparent,
@@ -419,7 +417,7 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                                                           .override(
                                                             fontFamily:
                                                                 'Readex Pro',
-                                                            color: Color(
+                                                            color: const Color(
                                                                 0xFF14181B),
                                                             fontSize: 14.0,
                                                             letterSpacing: 0.0,
@@ -438,7 +436,7 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                                                   flex: 4,
                                                   child: Padding(
                                                     padding:
-                                                        EdgeInsetsDirectional
+                                                        const EdgeInsetsDirectional
                                                             .fromSTEB(0.0, 8.0,
                                                                 12.0, 8.0),
                                                     child: Row(
@@ -447,7 +445,7 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                                                       children: [
                                                         Padding(
                                                           padding:
-                                                              EdgeInsetsDirectional
+                                                              const EdgeInsetsDirectional
                                                                   .fromSTEB(
                                                                       0.0,
                                                                       0.0,
@@ -470,7 +468,7 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                                                         Expanded(
                                                           child: Padding(
                                                             padding:
-                                                                EdgeInsetsDirectional
+                                                                const EdgeInsetsDirectional
                                                                     .fromSTEB(
                                                                         4.0,
                                                                         0.0,
@@ -499,7 +497,7 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                                                                       .override(
                                                                         fontFamily:
                                                                             'Readex Pro',
-                                                                        color: Color(
+                                                                        color: const Color(
                                                                             0xFF14181B),
                                                                         fontSize:
                                                                             14.0,
@@ -512,7 +510,7 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                                                                       ),
                                                                 ),
                                                                 Padding(
-                                                                  padding: EdgeInsetsDirectional
+                                                                  padding: const EdgeInsetsDirectional
                                                                       .fromSTEB(
                                                                           0.0,
                                                                           4.0,
@@ -531,7 +529,7 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                                                                           fontFamily:
                                                                               'Readex Pro',
                                                                           color:
-                                                                              Color(0xFF4B39EF),
+                                                                              const Color(0xFF4B39EF),
                                                                           fontSize:
                                                                               12.0,
                                                                           letterSpacing:
@@ -570,7 +568,7 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                                                           .override(
                                                             fontFamily:
                                                                 'Readex Pro',
-                                                            color: Color(
+                                                            color: const Color(
                                                                 0xFF14181B),
                                                             fontSize: 14.0,
                                                             letterSpacing: 0.0,
@@ -603,7 +601,7 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                                                           .override(
                                                             fontFamily:
                                                                 'Readex Pro',
-                                                            color: Color(
+                                                            color: const Color(
                                                                 0xFF14181B),
                                                             fontSize: 14.0,
                                                             letterSpacing: 0.0,
@@ -628,18 +626,18 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                                                         decoration:
                                                             BoxDecoration(
                                                           color:
-                                                              Color(0xFFF1F4F8),
+                                                              const Color(0xFFF1F4F8),
                                                           borderRadius:
                                                               BorderRadius
                                                                   .circular(
                                                                       40.0),
                                                         ),
                                                         alignment:
-                                                            AlignmentDirectional(
+                                                            const AlignmentDirectional(
                                                                 0.0, 0.0),
                                                         child: Padding(
                                                           padding:
-                                                              EdgeInsetsDirectional
+                                                              const EdgeInsetsDirectional
                                                                   .fromSTEB(
                                                                       12.0,
                                                                       0.0,
@@ -657,7 +655,7 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                                                                 .override(
                                                                   fontFamily:
                                                                       'Readex Pro',
-                                                                  color: Color(
+                                                                  color: const Color(
                                                                       0xFF14181B),
                                                                   fontSize:
                                                                       14.0,
@@ -690,7 +688,7 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                                                       ))
                                                         Padding(
                                                           padding:
-                                                              EdgeInsetsDirectional
+                                                              const EdgeInsetsDirectional
                                                                   .fromSTEB(
                                                                       0.0,
                                                                       0.0,
@@ -703,7 +701,7 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                                                             borderRadius: 30.0,
                                                             borderWidth: 1.0,
                                                             buttonSize: 44.0,
-                                                            icon: Icon(
+                                                            icon: const Icon(
                                                               Icons
                                                                   .edit_outlined,
                                                               color: Color(
@@ -722,7 +720,7 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                                                         borderRadius: 30.0,
                                                         borderWidth: 1.0,
                                                         buttonSize: 44.0,
-                                                        icon: Icon(
+                                                        icon: const Icon(
                                                           Icons.more_vert,
                                                           color:
                                                               Color(0xFF57636C),
@@ -743,11 +741,11 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                                       ),
                                     ),
                                     Padding(
-                                      padding: EdgeInsetsDirectional.fromSTEB(
+                                      padding: const EdgeInsetsDirectional.fromSTEB(
                                           0.0, 0.0, 0.0, 1.0),
                                       child: Container(
                                         width: 100.0,
-                                        decoration: BoxDecoration(
+                                        decoration: const BoxDecoration(
                                           color: Colors.white,
                                           boxShadow: [
                                             BoxShadow(
@@ -762,7 +760,7 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                                         ),
                                         child: Padding(
                                           padding:
-                                              EdgeInsetsDirectional.fromSTEB(
+                                              const EdgeInsetsDirectional.fromSTEB(
                                                   16.0, 0.0, 16.0, 0.0),
                                           child: InkWell(
                                             splashColor: Colors.transparent,
@@ -800,7 +798,7 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                                                           .override(
                                                             fontFamily:
                                                                 'Readex Pro',
-                                                            color: Color(
+                                                            color: const Color(
                                                                 0xFF14181B),
                                                             fontSize: 14.0,
                                                             letterSpacing: 0.0,
@@ -819,7 +817,7 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                                                   flex: 4,
                                                   child: Padding(
                                                     padding:
-                                                        EdgeInsetsDirectional
+                                                        const EdgeInsetsDirectional
                                                             .fromSTEB(0.0, 8.0,
                                                                 12.0, 8.0),
                                                     child: Row(
@@ -828,7 +826,7 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                                                       children: [
                                                         Padding(
                                                           padding:
-                                                              EdgeInsetsDirectional
+                                                              const EdgeInsetsDirectional
                                                                   .fromSTEB(
                                                                       0.0,
                                                                       0.0,
@@ -851,7 +849,7 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                                                         Expanded(
                                                           child: Padding(
                                                             padding:
-                                                                EdgeInsetsDirectional
+                                                                const EdgeInsetsDirectional
                                                                     .fromSTEB(
                                                                         4.0,
                                                                         0.0,
@@ -880,7 +878,7 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                                                                       .override(
                                                                         fontFamily:
                                                                             'Readex Pro',
-                                                                        color: Color(
+                                                                        color: const Color(
                                                                             0xFF14181B),
                                                                         fontSize:
                                                                             14.0,
@@ -893,7 +891,7 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                                                                       ),
                                                                 ),
                                                                 Padding(
-                                                                  padding: EdgeInsetsDirectional
+                                                                  padding: const EdgeInsetsDirectional
                                                                       .fromSTEB(
                                                                           0.0,
                                                                           4.0,
@@ -912,7 +910,7 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                                                                           fontFamily:
                                                                               'Readex Pro',
                                                                           color:
-                                                                              Color(0xFF4B39EF),
+                                                                              const Color(0xFF4B39EF),
                                                                           fontSize:
                                                                               12.0,
                                                                           letterSpacing:
@@ -951,7 +949,7 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                                                           .override(
                                                             fontFamily:
                                                                 'Readex Pro',
-                                                            color: Color(
+                                                            color: const Color(
                                                                 0xFF14181B),
                                                             fontSize: 14.0,
                                                             letterSpacing: 0.0,
@@ -984,7 +982,7 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                                                           .override(
                                                             fontFamily:
                                                                 'Readex Pro',
-                                                            color: Color(
+                                                            color: const Color(
                                                                 0xFF14181B),
                                                             fontSize: 14.0,
                                                             letterSpacing: 0.0,
@@ -1009,18 +1007,18 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                                                         decoration:
                                                             BoxDecoration(
                                                           color:
-                                                              Color(0xFFF1F4F8),
+                                                              const Color(0xFFF1F4F8),
                                                           borderRadius:
                                                               BorderRadius
                                                                   .circular(
                                                                       40.0),
                                                         ),
                                                         alignment:
-                                                            AlignmentDirectional(
+                                                            const AlignmentDirectional(
                                                                 0.0, 0.0),
                                                         child: Padding(
                                                           padding:
-                                                              EdgeInsetsDirectional
+                                                              const EdgeInsetsDirectional
                                                                   .fromSTEB(
                                                                       12.0,
                                                                       0.0,
@@ -1038,7 +1036,7 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                                                                 .override(
                                                                   fontFamily:
                                                                       'Readex Pro',
-                                                                  color: Color(
+                                                                  color: const Color(
                                                                       0xFF14181B),
                                                                   fontSize:
                                                                       14.0,
@@ -1071,7 +1069,7 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                                                       ))
                                                         Padding(
                                                           padding:
-                                                              EdgeInsetsDirectional
+                                                              const EdgeInsetsDirectional
                                                                   .fromSTEB(
                                                                       0.0,
                                                                       0.0,
@@ -1084,7 +1082,7 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                                                             borderRadius: 30.0,
                                                             borderWidth: 1.0,
                                                             buttonSize: 44.0,
-                                                            icon: Icon(
+                                                            icon: const Icon(
                                                               Icons
                                                                   .edit_outlined,
                                                               color: Color(
@@ -1103,7 +1101,7 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                                                         borderRadius: 30.0,
                                                         borderWidth: 1.0,
                                                         buttonSize: 44.0,
-                                                        icon: Icon(
+                                                        icon: const Icon(
                                                           Icons.more_vert,
                                                           color:
                                                               Color(0xFF57636C),
@@ -1124,11 +1122,11 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                                       ),
                                     ),
                                     Padding(
-                                      padding: EdgeInsetsDirectional.fromSTEB(
+                                      padding: const EdgeInsetsDirectional.fromSTEB(
                                           0.0, 0.0, 0.0, 1.0),
                                       child: Container(
                                         width: 100.0,
-                                        decoration: BoxDecoration(
+                                        decoration: const BoxDecoration(
                                           color: Colors.white,
                                           boxShadow: [
                                             BoxShadow(
@@ -1143,7 +1141,7 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                                         ),
                                         child: Padding(
                                           padding:
-                                              EdgeInsetsDirectional.fromSTEB(
+                                              const EdgeInsetsDirectional.fromSTEB(
                                                   16.0, 0.0, 16.0, 0.0),
                                           child: InkWell(
                                             splashColor: Colors.transparent,
@@ -1181,7 +1179,7 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                                                           .override(
                                                             fontFamily:
                                                                 'Readex Pro',
-                                                            color: Color(
+                                                            color: const Color(
                                                                 0xFF14181B),
                                                             fontSize: 14.0,
                                                             letterSpacing: 0.0,
@@ -1200,7 +1198,7 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                                                   flex: 4,
                                                   child: Padding(
                                                     padding:
-                                                        EdgeInsetsDirectional
+                                                        const EdgeInsetsDirectional
                                                             .fromSTEB(0.0, 8.0,
                                                                 12.0, 8.0),
                                                     child: Row(
@@ -1209,7 +1207,7 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                                                       children: [
                                                         Padding(
                                                           padding:
-                                                              EdgeInsetsDirectional
+                                                              const EdgeInsetsDirectional
                                                                   .fromSTEB(
                                                                       0.0,
                                                                       0.0,
@@ -1232,7 +1230,7 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                                                         Expanded(
                                                           child: Padding(
                                                             padding:
-                                                                EdgeInsetsDirectional
+                                                                const EdgeInsetsDirectional
                                                                     .fromSTEB(
                                                                         4.0,
                                                                         0.0,
@@ -1261,7 +1259,7 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                                                                       .override(
                                                                         fontFamily:
                                                                             'Readex Pro',
-                                                                        color: Color(
+                                                                        color: const Color(
                                                                             0xFF14181B),
                                                                         fontSize:
                                                                             14.0,
@@ -1274,7 +1272,7 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                                                                       ),
                                                                 ),
                                                                 Padding(
-                                                                  padding: EdgeInsetsDirectional
+                                                                  padding: const EdgeInsetsDirectional
                                                                       .fromSTEB(
                                                                           0.0,
                                                                           4.0,
@@ -1293,7 +1291,7 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                                                                           fontFamily:
                                                                               'Readex Pro',
                                                                           color:
-                                                                              Color(0xFF4B39EF),
+                                                                              const Color(0xFF4B39EF),
                                                                           fontSize:
                                                                               12.0,
                                                                           letterSpacing:
@@ -1332,7 +1330,7 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                                                           .override(
                                                             fontFamily:
                                                                 'Readex Pro',
-                                                            color: Color(
+                                                            color: const Color(
                                                                 0xFF14181B),
                                                             fontSize: 14.0,
                                                             letterSpacing: 0.0,
@@ -1365,7 +1363,7 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                                                           .override(
                                                             fontFamily:
                                                                 'Readex Pro',
-                                                            color: Color(
+                                                            color: const Color(
                                                                 0xFF14181B),
                                                             fontSize: 14.0,
                                                             letterSpacing: 0.0,
@@ -1390,18 +1388,18 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                                                         decoration:
                                                             BoxDecoration(
                                                           color:
-                                                              Color(0xFFF1F4F8),
+                                                              const Color(0xFFF1F4F8),
                                                           borderRadius:
                                                               BorderRadius
                                                                   .circular(
                                                                       40.0),
                                                         ),
                                                         alignment:
-                                                            AlignmentDirectional(
+                                                            const AlignmentDirectional(
                                                                 0.0, 0.0),
                                                         child: Padding(
                                                           padding:
-                                                              EdgeInsetsDirectional
+                                                              const EdgeInsetsDirectional
                                                                   .fromSTEB(
                                                                       12.0,
                                                                       0.0,
@@ -1419,7 +1417,7 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                                                                 .override(
                                                                   fontFamily:
                                                                       'Readex Pro',
-                                                                  color: Color(
+                                                                  color: const Color(
                                                                       0xFF14181B),
                                                                   fontSize:
                                                                       14.0,
@@ -1452,7 +1450,7 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                                                       ))
                                                         Padding(
                                                           padding:
-                                                              EdgeInsetsDirectional
+                                                              const EdgeInsetsDirectional
                                                                   .fromSTEB(
                                                                       0.0,
                                                                       0.0,
@@ -1465,7 +1463,7 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                                                             borderRadius: 30.0,
                                                             borderWidth: 1.0,
                                                             buttonSize: 44.0,
-                                                            icon: Icon(
+                                                            icon: const Icon(
                                                               Icons
                                                                   .edit_outlined,
                                                               color: Color(
@@ -1484,7 +1482,7 @@ class _UsersScreenWidgetState extends State<UsersScreenWidget> {
                                                         borderRadius: 30.0,
                                                         borderWidth: 1.0,
                                                         buttonSize: 44.0,
-                                                        icon: Icon(
+                                                        icon: const Icon(
                                                           Icons.more_vert,
                                                           color:
                                                               Color(0xFF57636C),

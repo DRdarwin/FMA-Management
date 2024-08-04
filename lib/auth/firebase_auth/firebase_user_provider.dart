@@ -10,6 +10,7 @@ export '../base_auth_user_provider.dart';
 class FMAManagementFirebaseUser extends BaseAuthUser {
   FMAManagementFirebaseUser(this.user);
   User? user;
+  @override
   bool get loggedIn => user != null;
 
   @override

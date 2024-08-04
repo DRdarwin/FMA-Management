@@ -1,68 +1,208 @@
 {
   "images" : [
     {
-      "size" : "16x16",
+      "filename" : "favicon-16x16.png",
       "idiom" : "mac",
-      "filename" : "app_icon_16.png",
-      "scale" : "1x"
+      "scale" : "1x",
+      "size" : "16x16"
     },
     {
-      "size" : "16x16",
+      "filename" : "favicon-16x16 1.png",
       "idiom" : "mac",
-      "filename" : "app_icon_32.png",
-      "scale" : "2x"
+      "language-direction" : "left-to-right",
+      "scale" : "1x",
+      "size" : "16x16"
     },
     {
-      "size" : "32x32",
+      "filename" : "favicon-16x16 2.png",
       "idiom" : "mac",
-      "filename" : "app_icon_32.png",
-      "scale" : "1x"
+      "language-direction" : "right-to-left",
+      "scale" : "1x",
+      "size" : "16x16"
     },
     {
-      "size" : "32x32",
+      "filename" : "favicon-32x32 1.png",
       "idiom" : "mac",
-      "filename" : "app_icon_64.png",
-      "scale" : "2x"
+      "scale" : "2x",
+      "size" : "16x16"
     },
     {
-      "size" : "128x128",
+      "filename" : "favicon-32x32 3.png",
       "idiom" : "mac",
-      "filename" : "app_icon_128.png",
-      "scale" : "1x"
+      "language-direction" : "left-to-right",
+      "scale" : "2x",
+      "size" : "16x16"
     },
     {
-      "size" : "128x128",
+      "filename" : "favicon-32x32 2.png",
       "idiom" : "mac",
-      "filename" : "app_icon_256.png",
-      "scale" : "2x"
+      "language-direction" : "right-to-left",
+      "scale" : "2x",
+      "size" : "16x16"
     },
     {
-      "size" : "256x256",
+      "filename" : "favicon-32x32.png",
       "idiom" : "mac",
-      "filename" : "app_icon_256.png",
-      "scale" : "1x"
+      "scale" : "1x",
+      "size" : "32x32"
     },
     {
-      "size" : "256x256",
+      "filename" : "favicon-32x32 4.png",
       "idiom" : "mac",
-      "filename" : "app_icon_512.png",
-      "scale" : "2x"
+      "language-direction" : "left-to-right",
+      "scale" : "1x",
+      "size" : "32x32"
     },
     {
-      "size" : "512x512",
+      "filename" : "favicon-32x32 5.png",
       "idiom" : "mac",
-      "filename" : "app_icon_512.png",
-      "scale" : "1x"
+      "language-direction" : "right-to-left",
+      "scale" : "1x",
+      "size" : "32x32"
     },
     {
-      "size" : "512x512",
+      "filename" : "apple-touch-icon-64x64-precomposed 1.png",
       "idiom" : "mac",
-      "filename" : "app_icon_1024.png",
-      "scale" : "2x"
+      "scale" : "2x",
+      "size" : "32x32"
+    },
+    {
+      "filename" : "apple-touch-icon-64x64-precomposed.png",
+      "idiom" : "mac",
+      "language-direction" : "left-to-right",
+      "scale" : "2x",
+      "size" : "32x32"
+    },
+    {
+      "filename" : "apple-touch-icon-64x64-precomposed 2.png",
+      "idiom" : "mac",
+      "language-direction" : "right-to-left",
+      "scale" : "2x",
+      "size" : "32x32"
+    },
+    {
+      "filename" : "128.png",
+      "idiom" : "mac",
+      "scale" : "1x",
+      "size" : "128x128"
+    },
+    {
+      "filename" : "128 1.png",
+      "idiom" : "mac",
+      "language-direction" : "left-to-right",
+      "scale" : "1x",
+      "size" : "128x128"
+    },
+    {
+      "filename" : "128 2.png",
+      "idiom" : "mac",
+      "language-direction" : "right-to-left",
+      "scale" : "1x",
+      "size" : "128x128"
+    },
+    {
+      "filename" : "android-chrome-256x256 1.png",
+      "idiom" : "mac",
+      "scale" : "2x",
+      "size" : "128x128"
+    },
+    {
+      "filename" : "android-chrome-256x256 2.png",
+      "idiom" : "mac",
+      "language-direction" : "left-to-right",
+      "scale" : "2x",
+      "size" : "128x128"
+    },
+    {
+      "filename" : "android-chrome-256x256 3.png",
+      "idiom" : "mac",
+      "language-direction" : "right-to-left",
+      "scale" : "2x",
+      "size" : "128x128"
+    },
+    {
+      "filename" : "android-chrome-256x256.png",
+      "idiom" : "mac",
+      "scale" : "1x",
+      "size" : "256x256"
+    },
+    {
+      "filename" : "android-chrome-256x256 4.png",
+      "idiom" : "mac",
+      "language-direction" : "left-to-right",
+      "scale" : "1x",
+      "size" : "256x256"
+    },
+    {
+      "filename" : "android-chrome-256x256 5.png",
+      "idiom" : "mac",
+      "language-direction" : "right-to-left",
+      "scale" : "1x",
+      "size" : "256x256"
+    },
+    {
+      "filename" : "android-chrome-512x512.png",
+      "idiom" : "mac",
+      "scale" : "2x",
+      "size" : "256x256"
+    },
+    {
+      "filename" : "android-chrome-512x512 2.png",
+      "idiom" : "mac",
+      "language-direction" : "left-to-right",
+      "scale" : "2x",
+      "size" : "256x256"
+    },
+    {
+      "filename" : "android-chrome-512x512 3.png",
+      "idiom" : "mac",
+      "language-direction" : "right-to-left",
+      "scale" : "2x",
+      "size" : "256x256"
+    },
+    {
+      "filename" : "android-chrome-512x512 1.png",
+      "idiom" : "mac",
+      "scale" : "1x",
+      "size" : "512x512"
+    },
+    {
+      "filename" : "android-chrome-512x512 4.png",
+      "idiom" : "mac",
+      "language-direction" : "left-to-right",
+      "scale" : "1x",
+      "size" : "512x512"
+    },
+    {
+      "filename" : "android-chrome-512x512 5.png",
+      "idiom" : "mac",
+      "language-direction" : "right-to-left",
+      "scale" : "1x",
+      "size" : "512x512"
+    },
+    {
+      "filename" : "fgdcfvfvdfcd копія 1.png",
+      "idiom" : "mac",
+      "scale" : "2x",
+      "size" : "512x512"
+    },
+    {
+      "filename" : "fgdcfvfvdfcd копія.png",
+      "idiom" : "mac",
+      "language-direction" : "left-to-right",
+      "scale" : "2x",
+      "size" : "512x512"
+    },
+    {
+      "filename" : "fgdcfvfvdfcd копія 2.png",
+      "idiom" : "mac",
+      "language-direction" : "right-to-left",
+      "scale" : "2x",
+      "size" : "512x512"
     }
   ],
   "info" : {
-    "version" : 1,
-    "author" : "xcode"
+    "author" : "xcode",
+    "version" : 1
   }
 }

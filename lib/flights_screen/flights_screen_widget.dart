@@ -4,7 +4,6 @@ import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:provider/provider.dart';
 import 'flights_screen_model.dart';
 export 'flights_screen_model.dart';
 
@@ -93,7 +92,7 @@ class _FlightsScreenWidgetState extends State<FlightsScreenWidget> {
                                     .headlineMediumFamily),
                           ),
                     ),
-                    actions: [],
+                    actions: const [],
                     centerTitle: true,
                     elevation: 0.0,
                   )
@@ -131,25 +130,25 @@ class _FlightsScreenWidgetState extends State<FlightsScreenWidget> {
                                                 .headlineMediumFamily),
                                   ),
                             ),
-                            actions: [],
+                            actions: const [],
                             centerTitle: false,
                             elevation: 0.0,
                           )
                         : null,
                     Padding(
                       padding:
-                          EdgeInsetsDirectional.fromSTEB(16.0, 0.0, 16.0, 90.0),
+                          const EdgeInsetsDirectional.fromSTEB(16.0, 0.0, 16.0, 90.0),
                       child: Column(
                         mainAxisSize: MainAxisSize.max,
                         children: [
                           Padding(
-                            padding: EdgeInsetsDirectional.fromSTEB(
+                            padding: const EdgeInsetsDirectional.fromSTEB(
                                 8.0, 0.0, 8.0, 0.0),
                             child: Row(
                               mainAxisSize: MainAxisSize.max,
                               children: [
                                 Padding(
-                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                  padding: const EdgeInsetsDirectional.fromSTEB(
                                       0.0, 0.0, 0.0, 12.0),
                                   child: Column(
                                     mainAxisSize: MainAxisSize.max,
@@ -179,7 +178,7 @@ class _FlightsScreenWidgetState extends State<FlightsScreenWidget> {
                                             ),
                                       ),
                                       Padding(
-                                        padding: EdgeInsetsDirectional.fromSTEB(
+                                        padding: const EdgeInsetsDirectional.fromSTEB(
                                             4.0, 0.0, 0.0, 0.0),
                                         child: Text(
                                           FFLocalizations.of(context).getText(
@@ -205,7 +204,7 @@ class _FlightsScreenWidgetState extends State<FlightsScreenWidget> {
                                         ),
                                       ),
                                       Padding(
-                                        padding: EdgeInsetsDirectional.fromSTEB(
+                                        padding: const EdgeInsetsDirectional.fromSTEB(
                                             4.0, 0.0, 0.0, 0.0),
                                         child: Text(
                                           FFLocalizations.of(context).getText(
@@ -231,7 +230,7 @@ class _FlightsScreenWidgetState extends State<FlightsScreenWidget> {
                                         ),
                                       ),
                                       Padding(
-                                        padding: EdgeInsetsDirectional.fromSTEB(
+                                        padding: const EdgeInsetsDirectional.fromSTEB(
                                             4.0, 0.0, 0.0, 0.0),
                                         child: Text(
                                           FFLocalizations.of(context).getText(
@@ -268,13 +267,13 @@ class _FlightsScreenWidgetState extends State<FlightsScreenWidget> {
                             color: FlutterFlowTheme.of(context).alternate,
                           ),
                           Padding(
-                            padding: EdgeInsetsDirectional.fromSTEB(
+                            padding: const EdgeInsetsDirectional.fromSTEB(
                                 8.0, 0.0, 8.0, 0.0),
                             child: Row(
                               mainAxisSize: MainAxisSize.max,
                               children: [
                                 Padding(
-                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                  padding: const EdgeInsetsDirectional.fromSTEB(
                                       0.0, 0.0, 0.0, 12.0),
                                   child: Column(
                                     mainAxisSize: MainAxisSize.max,
@@ -304,7 +303,7 @@ class _FlightsScreenWidgetState extends State<FlightsScreenWidget> {
                                             ),
                                       ),
                                       Padding(
-                                        padding: EdgeInsetsDirectional.fromSTEB(
+                                        padding: const EdgeInsetsDirectional.fromSTEB(
                                             4.0, 0.0, 0.0, 0.0),
                                         child: Text(
                                           FFLocalizations.of(context).getText(
@@ -330,7 +329,7 @@ class _FlightsScreenWidgetState extends State<FlightsScreenWidget> {
                                         ),
                                       ),
                                       Padding(
-                                        padding: EdgeInsetsDirectional.fromSTEB(
+                                        padding: const EdgeInsetsDirectional.fromSTEB(
                                             4.0, 0.0, 0.0, 0.0),
                                         child: Text(
                                           FFLocalizations.of(context).getText(
@@ -356,7 +355,7 @@ class _FlightsScreenWidgetState extends State<FlightsScreenWidget> {
                                         ),
                                       ),
                                       Padding(
-                                        padding: EdgeInsetsDirectional.fromSTEB(
+                                        padding: const EdgeInsetsDirectional.fromSTEB(
                                             4.0, 0.0, 0.0, 0.0),
                                         child: Text(
                                           FFLocalizations.of(context).getText(
@@ -393,13 +392,13 @@ class _FlightsScreenWidgetState extends State<FlightsScreenWidget> {
                             color: FlutterFlowTheme.of(context).alternate,
                           ),
                           Padding(
-                            padding: EdgeInsetsDirectional.fromSTEB(
+                            padding: const EdgeInsetsDirectional.fromSTEB(
                                 8.0, 0.0, 8.0, 0.0),
                             child: Row(
                               mainAxisSize: MainAxisSize.max,
                               children: [
                                 Padding(
-                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                  padding: const EdgeInsetsDirectional.fromSTEB(
                                       0.0, 0.0, 0.0, 12.0),
                                   child: Column(
                                     mainAxisSize: MainAxisSize.max,
@@ -429,7 +428,7 @@ class _FlightsScreenWidgetState extends State<FlightsScreenWidget> {
                                             ),
                                       ),
                                       Padding(
-                                        padding: EdgeInsetsDirectional.fromSTEB(
+                                        padding: const EdgeInsetsDirectional.fromSTEB(
                                             4.0, 0.0, 0.0, 0.0),
                                         child: Text(
                                           FFLocalizations.of(context).getText(
@@ -455,7 +454,7 @@ class _FlightsScreenWidgetState extends State<FlightsScreenWidget> {
                                         ),
                                       ),
                                       Padding(
-                                        padding: EdgeInsetsDirectional.fromSTEB(
+                                        padding: const EdgeInsetsDirectional.fromSTEB(
                                             4.0, 0.0, 0.0, 0.0),
                                         child: Text(
                                           FFLocalizations.of(context).getText(
@@ -481,7 +480,7 @@ class _FlightsScreenWidgetState extends State<FlightsScreenWidget> {
                                         ),
                                       ),
                                       Padding(
-                                        padding: EdgeInsetsDirectional.fromSTEB(
+                                        padding: const EdgeInsetsDirectional.fromSTEB(
                                             4.0, 0.0, 0.0, 0.0),
                                         child: Text(
                                           FFLocalizations.of(context).getText(
@@ -523,7 +522,7 @@ class _FlightsScreenWidgetState extends State<FlightsScreenWidget> {
                     Material(
                       color: Colors.transparent,
                       elevation: 5.0,
-                      shape: RoundedRectangleBorder(
+                      shape: const RoundedRectangleBorder(
                         borderRadius: BorderRadius.only(
                           bottomLeft: Radius.circular(0.0),
                           bottomRight: Radius.circular(0.0),
@@ -533,7 +532,7 @@ class _FlightsScreenWidgetState extends State<FlightsScreenWidget> {
                       ),
                       child: Container(
                         width: double.infinity,
-                        decoration: BoxDecoration(
+                        decoration: const BoxDecoration(
                           color: Colors.white,
                           borderRadius: BorderRadius.only(
                             bottomLeft: Radius.circular(0.0),
@@ -546,19 +545,19 @@ class _FlightsScreenWidgetState extends State<FlightsScreenWidget> {
                           mainAxisSize: MainAxisSize.max,
                           children: [
                             Padding(
-                              padding: EdgeInsetsDirectional.fromSTEB(
+                              padding: const EdgeInsetsDirectional.fromSTEB(
                                   0.0, 12.0, 0.0, 0.0),
                               child: Container(
                                 width: 50.0,
                                 height: 4.0,
                                 decoration: BoxDecoration(
-                                  color: Color(0xFFF1F4F8),
+                                  color: const Color(0xFFF1F4F8),
                                   borderRadius: BorderRadius.circular(8.0),
                                 ),
                               ),
                             ),
                             Padding(
-                              padding: EdgeInsetsDirectional.fromSTEB(
+                              padding: const EdgeInsetsDirectional.fromSTEB(
                                   16.0, 16.0, 16.0, 0.0),
                               child: Row(
                                 mainAxisSize: MainAxisSize.max,
@@ -571,7 +570,7 @@ class _FlightsScreenWidgetState extends State<FlightsScreenWidget> {
                                         .headlineSmall
                                         .override(
                                           fontFamily: 'Outfit',
-                                          color: Color(0xFF14181B),
+                                          color: const Color(0xFF14181B),
                                           fontSize: 24.0,
                                           letterSpacing: 0.0,
                                           fontWeight: FontWeight.w500,
@@ -583,7 +582,7 @@ class _FlightsScreenWidgetState extends State<FlightsScreenWidget> {
                               ),
                             ),
                             Padding(
-                              padding: EdgeInsetsDirectional.fromSTEB(
+                              padding: const EdgeInsetsDirectional.fromSTEB(
                                   0.0, 0.0, 0.0, 32.0),
                               child: ListView(
                                 padding: EdgeInsets.zero,
@@ -592,7 +591,7 @@ class _FlightsScreenWidgetState extends State<FlightsScreenWidget> {
                                 scrollDirection: Axis.vertical,
                                 children: [
                                   Padding(
-                                    padding: EdgeInsetsDirectional.fromSTEB(
+                                    padding: const EdgeInsetsDirectional.fromSTEB(
                                         16.0, 12.0, 16.0, 0.0),
                                     child: Container(
                                       width: double.infinity,
@@ -601,12 +600,12 @@ class _FlightsScreenWidgetState extends State<FlightsScreenWidget> {
                                         borderRadius:
                                             BorderRadius.circular(8.0),
                                         border: Border.all(
-                                          color: Color(0xFFE0E3E7),
+                                          color: const Color(0xFFE0E3E7),
                                           width: 2.0,
                                         ),
                                       ),
                                       child: Padding(
-                                        padding: EdgeInsetsDirectional.fromSTEB(
+                                        padding: const EdgeInsetsDirectional.fromSTEB(
                                             16.0, 12.0, 8.0, 12.0),
                                         child: Row(
                                           mainAxisSize: MainAxisSize.max,
@@ -625,7 +624,7 @@ class _FlightsScreenWidgetState extends State<FlightsScreenWidget> {
                                                         fontFamily:
                                                             'Plus Jakarta Sans',
                                                         color:
-                                                            Color(0xFF14181B),
+                                                            const Color(0xFF14181B),
                                                         fontSize: 16.0,
                                                         letterSpacing: 0.0,
                                                         fontWeight:
@@ -636,7 +635,7 @@ class _FlightsScreenWidgetState extends State<FlightsScreenWidget> {
                                                                 'Plus Jakarta Sans'),
                                                       ),
                                             ),
-                                            Icon(
+                                            const Icon(
                                               Icons.chevron_right_rounded,
                                               color: Color(0xFF7C8791),
                                               size: 24.0,
@@ -647,7 +646,7 @@ class _FlightsScreenWidgetState extends State<FlightsScreenWidget> {
                                     ),
                                   ),
                                   Padding(
-                                    padding: EdgeInsetsDirectional.fromSTEB(
+                                    padding: const EdgeInsetsDirectional.fromSTEB(
                                         16.0, 12.0, 16.0, 0.0),
                                     child: Container(
                                       width: double.infinity,
@@ -656,12 +655,12 @@ class _FlightsScreenWidgetState extends State<FlightsScreenWidget> {
                                         borderRadius:
                                             BorderRadius.circular(8.0),
                                         border: Border.all(
-                                          color: Color(0xFFE0E3E7),
+                                          color: const Color(0xFFE0E3E7),
                                           width: 2.0,
                                         ),
                                       ),
                                       child: Padding(
-                                        padding: EdgeInsetsDirectional.fromSTEB(
+                                        padding: const EdgeInsetsDirectional.fromSTEB(
                                             16.0, 12.0, 8.0, 12.0),
                                         child: Row(
                                           mainAxisSize: MainAxisSize.max,
@@ -680,7 +679,7 @@ class _FlightsScreenWidgetState extends State<FlightsScreenWidget> {
                                                         fontFamily:
                                                             'Plus Jakarta Sans',
                                                         color:
-                                                            Color(0xFF14181B),
+                                                            const Color(0xFF14181B),
                                                         fontSize: 16.0,
                                                         letterSpacing: 0.0,
                                                         fontWeight:
@@ -691,7 +690,7 @@ class _FlightsScreenWidgetState extends State<FlightsScreenWidget> {
                                                                 'Plus Jakarta Sans'),
                                                       ),
                                             ),
-                                            Icon(
+                                            const Icon(
                                               Icons.chevron_right_rounded,
                                               color: Color(0xFF7C8791),
                                               size: 24.0,
@@ -702,7 +701,7 @@ class _FlightsScreenWidgetState extends State<FlightsScreenWidget> {
                                     ),
                                   ),
                                   Padding(
-                                    padding: EdgeInsetsDirectional.fromSTEB(
+                                    padding: const EdgeInsetsDirectional.fromSTEB(
                                         16.0, 12.0, 16.0, 0.0),
                                     child: Container(
                                       width: double.infinity,
@@ -711,12 +710,12 @@ class _FlightsScreenWidgetState extends State<FlightsScreenWidget> {
                                         borderRadius:
                                             BorderRadius.circular(8.0),
                                         border: Border.all(
-                                          color: Color(0xFFE0E3E7),
+                                          color: const Color(0xFFE0E3E7),
                                           width: 2.0,
                                         ),
                                       ),
                                       child: Padding(
-                                        padding: EdgeInsetsDirectional.fromSTEB(
+                                        padding: const EdgeInsetsDirectional.fromSTEB(
                                             16.0, 12.0, 8.0, 12.0),
                                         child: Row(
                                           mainAxisSize: MainAxisSize.max,
@@ -735,7 +734,7 @@ class _FlightsScreenWidgetState extends State<FlightsScreenWidget> {
                                                         fontFamily:
                                                             'Plus Jakarta Sans',
                                                         color:
-                                                            Color(0xFF14181B),
+                                                            const Color(0xFF14181B),
                                                         fontSize: 16.0,
                                                         letterSpacing: 0.0,
                                                         fontWeight:
@@ -746,7 +745,7 @@ class _FlightsScreenWidgetState extends State<FlightsScreenWidget> {
                                                                 'Plus Jakarta Sans'),
                                                       ),
                                             ),
-                                            Icon(
+                                            const Icon(
                                               Icons.chevron_right_rounded,
                                               color: Color(0xFF7C8791),
                                               size: 24.0,
@@ -757,7 +756,7 @@ class _FlightsScreenWidgetState extends State<FlightsScreenWidget> {
                                     ),
                                   ),
                                   Padding(
-                                    padding: EdgeInsetsDirectional.fromSTEB(
+                                    padding: const EdgeInsetsDirectional.fromSTEB(
                                         16.0, 12.0, 16.0, 0.0),
                                     child: Container(
                                       width: double.infinity,
@@ -766,12 +765,12 @@ class _FlightsScreenWidgetState extends State<FlightsScreenWidget> {
                                         borderRadius:
                                             BorderRadius.circular(8.0),
                                         border: Border.all(
-                                          color: Color(0xFFE0E3E7),
+                                          color: const Color(0xFFE0E3E7),
                                           width: 2.0,
                                         ),
                                       ),
                                       child: Padding(
-                                        padding: EdgeInsetsDirectional.fromSTEB(
+                                        padding: const EdgeInsetsDirectional.fromSTEB(
                                             16.0, 12.0, 8.0, 12.0),
                                         child: Row(
                                           mainAxisSize: MainAxisSize.max,
@@ -790,7 +789,7 @@ class _FlightsScreenWidgetState extends State<FlightsScreenWidget> {
                                                         fontFamily:
                                                             'Plus Jakarta Sans',
                                                         color:
-                                                            Color(0xFF14181B),
+                                                            const Color(0xFF14181B),
                                                         fontSize: 16.0,
                                                         letterSpacing: 0.0,
                                                         fontWeight:
@@ -801,7 +800,7 @@ class _FlightsScreenWidgetState extends State<FlightsScreenWidget> {
                                                                 'Plus Jakarta Sans'),
                                                       ),
                                             ),
-                                            Icon(
+                                            const Icon(
                                               Icons.chevron_right_rounded,
                                               color: Color(0xFF7C8791),
                                               size: 24.0,
@@ -812,7 +811,7 @@ class _FlightsScreenWidgetState extends State<FlightsScreenWidget> {
                                     ),
                                   ),
                                   Padding(
-                                    padding: EdgeInsetsDirectional.fromSTEB(
+                                    padding: const EdgeInsetsDirectional.fromSTEB(
                                         16.0, 12.0, 16.0, 0.0),
                                     child: Container(
                                       width: double.infinity,
@@ -821,12 +820,12 @@ class _FlightsScreenWidgetState extends State<FlightsScreenWidget> {
                                         borderRadius:
                                             BorderRadius.circular(8.0),
                                         border: Border.all(
-                                          color: Color(0xFFE0E3E7),
+                                          color: const Color(0xFFE0E3E7),
                                           width: 2.0,
                                         ),
                                       ),
                                       child: Padding(
-                                        padding: EdgeInsetsDirectional.fromSTEB(
+                                        padding: const EdgeInsetsDirectional.fromSTEB(
                                             16.0, 12.0, 8.0, 12.0),
                                         child: Row(
                                           mainAxisSize: MainAxisSize.max,
@@ -845,7 +844,7 @@ class _FlightsScreenWidgetState extends State<FlightsScreenWidget> {
                                                         fontFamily:
                                                             'Plus Jakarta Sans',
                                                         color:
-                                                            Color(0xFF14181B),
+                                                            const Color(0xFF14181B),
                                                         fontSize: 16.0,
                                                         letterSpacing: 0.0,
                                                         fontWeight:
@@ -856,7 +855,7 @@ class _FlightsScreenWidgetState extends State<FlightsScreenWidget> {
                                                                 'Plus Jakarta Sans'),
                                                       ),
                                             ),
-                                            Icon(
+                                            const Icon(
                                               Icons.chevron_right_rounded,
                                               color: Color(0xFF7C8791),
                                               size: 24.0,
@@ -883,10 +882,10 @@ class _FlightsScreenWidgetState extends State<FlightsScreenWidget> {
                       options: FFButtonOptions(
                         width: 188.0,
                         height: 40.0,
-                        padding: EdgeInsetsDirectional.fromSTEB(
+                        padding: const EdgeInsetsDirectional.fromSTEB(
                             30.0, 0.0, 30.0, 0.0),
                         iconPadding:
-                            EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
+                            const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
                         color: FlutterFlowTheme.of(context).primary,
                         textStyle: FlutterFlowTheme.of(context)
                             .titleSmall
@@ -900,7 +899,7 @@ class _FlightsScreenWidgetState extends State<FlightsScreenWidget> {
                                       .titleSmallFamily),
                             ),
                         elevation: 3.0,
-                        borderSide: BorderSide(
+                        borderSide: const BorderSide(
                           color: Colors.transparent,
                           width: 1.0,
                         ),
